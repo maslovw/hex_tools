@@ -1,0 +1,21 @@
+[package]
+name = "hex_tools"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#structopt library
+structopt = "0.3.23"
+#hex library
+hex = "0.4.3"
+
+[[bin]]
+name = "get_byte"
+path = "src/get_byte.rs"
+
+[[bin]]
+name = "set_byte"
+path = "src/set_byte.rs"
+
