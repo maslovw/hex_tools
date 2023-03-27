@@ -6,13 +6,16 @@ use structopt::StructOpt;
 /// the command line byte number of an input
 ///
 /// Example:
-///     echo "01020304" | get_byte 2
 ///
-///     0x02
+///     $echo "01020304" | get_byte 1
+///
+///     >0x02
+///
 /// This will print value of bit 1 in byte 1:
-///     echo "01020304" | get_byte 1.1
 ///
-///     1
+///     $echo "01020304" | get_byte 1.1
+///
+///     >1
 #[derive(Debug, StructOpt)]
 #[structopt(name = "get_byte")]
 struct Opt {
