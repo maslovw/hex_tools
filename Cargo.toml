@@ -19,3 +19,7 @@ path = "src/get_byte.rs"
 name = "set_byte"
 path = "src/set_byte.rs"
 
+[[bin]]
+name = "print_bits"
+path = "src/print_bits.rs"
+
