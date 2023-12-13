@@ -45,6 +45,27 @@ This tool will take input string of hex values and print specified in the comman
     <byte-number>    Byte number
     <value>          Value to set [default: 1]
 
+## print_bits
+
+Tool with print positions of the set bits in the provided value respectively to offset
+(bit counting from offset)
+
+### USAGE
+
+    print_bits <hex_value> [offset]
+
+#### ARGS
+
+    <hex_value>      Value for evaluation
+    [offset]         offset for bit counting [default: 1]
+
+### EXAMPLE
+
+    > print_bits 0x103 1
+    *Bit  1 is set
+    *Bit  2 is set
+    *Bit  9 is set
+
 
 # Build
 
